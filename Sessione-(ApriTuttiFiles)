@@ -1,0 +1,32 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="24">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="882" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\index.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="405" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\grid.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="513" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\model\Fornitura.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="477" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\store\Forniture.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="396" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\model\Consumo.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="639" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\store\Consumi.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="423" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\model\Voltura.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="639" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\store\Volture.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="630" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\view\Viewport.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="459" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\view\fornitura\Dashboard.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="693" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\view\fornitura\FornitureGrid.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="396" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\view\fornitura\Scheda.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="495" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\view\fornitura\EditForm.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="693" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\view\consumi\ConsumiGrid.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="423" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\view\volture\VoltureGrid.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="405" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\view\chart\ConsumiLine.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="396" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\view\chart\ConsumiBar.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="576" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\app\controller\controllerForniture.js" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="702" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\php\connetti.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="522" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\php\elencaForniture.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="783" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\php\nuovaFornitura.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="486" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\php\aggiornaFornitura.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="531" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\php\eliminaFornitura.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="828" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\php\elencaConsumi.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="828" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Programmi\BitNami WAMPStack\apache2\htdocs\gridV3\php\elencaVolture.php" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>
