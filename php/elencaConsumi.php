@@ -11,10 +11,10 @@
 				$sortOrder = $sort->direction;
 		};
 		
-		$queryString = "SELECT * FROM consumi3 ORDER BY `pod`, `anno`, `mese`";
+		$queryString = "SELECT * FROM consumi5 ORDER BY `pod`, `numero_fiscale`, `anno_riferimento`, `mese_riferimento`";
 	}
 	else {
-		$queryString = "SELECT * FROM consumi3 ORDER BY `pod`, `anno`, `mese`";
+		$queryString = "SELECT * FROM consumi5 ORDER BY `pod`, `numero_fiscale`, `anno_riferimento`, `mese_riferimento`";
 	}
 	
 	//esegui la query sql
@@ -27,7 +27,7 @@
 	}
 
 	//rileva il "numero" di record contenuti nel db
-	$queryTotal = mysql_query('SELECT count(*) as num FROM consumi3') or die(mysql_error());
+	$queryTotal = mysql_query('SELECT count(*) as num FROM consumi5') or die(mysql_error());
 	$row = mysql_fetch_assoc($queryTotal);
 	$total = $row['num'];
 

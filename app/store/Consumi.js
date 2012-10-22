@@ -9,7 +9,7 @@ Ext.define('ExtPOD.store.Consumi', {
 	simpleSortMode:true,
 	autoLoad: true,
     sorters : {
-        property : 'pod',
+        property : 'id',
         direction : 'ASC'
     },
 
