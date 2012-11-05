@@ -28,7 +28,7 @@ Ext.define('ExtPOD.view.chart.ConsumiBar', {
         }
 		}, 
 		{
-		title: 'Potenza Teorica POD (KWh)',
+		title: 'Potenza Teorica POD (KW)',
         type: 'Category',
         position: 'bottom',
         fields: ['pod'],
@@ -65,14 +65,15 @@ Ext.define('ExtPOD.view.chart.ConsumiBar', {
 			},
 			xField: 'pod',
 			yField: ['potenza'],
-			
+			title: ['Potenza Teorica'],
 			renderer: function(sprite, record, attr, index, store) {
 					return Ext.apply(attr, {
 						fill: '#ff8b3d'
 					});
 			}			
 			
-		},
+		}
+/*		,
 		{
 			type: 'line',
 			axis: 'left',
@@ -99,6 +100,7 @@ Ext.define('ExtPOD.view.chart.ConsumiBar', {
 				fill: '#18428E',
 				stroke: '#18428E'
 			}
-		}		
+		}	
+*/	
 	]        
 });   

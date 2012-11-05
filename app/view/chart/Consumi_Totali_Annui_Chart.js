@@ -34,13 +34,7 @@ Ext.define('ExtPOD.view.chart.Consumi_Totali_Annui_Chart', {
         type: 'Category',
         position: 'bottom',
         fields: ['anno_consumi'],
-		grid: true,
-		label: {
-				font: '11px Arial',
-				rotate: {
-					degrees: 315
-				}
-			}	
+		grid: true	
 		}
 	],
     
@@ -50,6 +44,15 @@ Ext.define('ExtPOD.view.chart.Consumi_Totali_Annui_Chart', {
 				axis: 'bottom',
 				xField: 'anno_consumi',
 				yField: ['consumi_teorici_annui','letture_annue','telecontrollo_annuo','consumi_fatturati_annui'],
+				title: ['Consumi Teorici Annui', 'Letture Annue', 'Telecontrollo Annuo', 'Consumi Fatturati Annui'],
+				label: {
+					contrast: true,
+					display: 'insideEnd',
+					field: ['consumi_teorici_annui','letture_annue','telecontrollo_annuo','consumi_fatturati_annui'],
+					color: '#000',
+					orientation: 'vertical',
+					'text-anchor': 'middle'			
+				}		
 			}		
 	]        
 });   

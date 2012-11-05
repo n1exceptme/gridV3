@@ -148,7 +148,7 @@ Ext.define('ExtPOD.view.fornitura.FornitureGrid' ,{
 					renderer : this.formatt_numeri_int
 					},
 					{
-					text: 'Potenza<br>(KWh)', 
+					text: 'Potenza<br>(KW)', 
 					dataIndex: 'potenza',  
 					type: 'float', 
 					width:70, 
