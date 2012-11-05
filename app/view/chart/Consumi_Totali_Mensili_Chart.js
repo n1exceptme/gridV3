@@ -11,7 +11,7 @@ Ext.define('ExtPOD.view.chart.Consumi_Totali_Mensili_Chart', {
     },
 	
     animate: true,
-    store: 'Consumi_Totali',
+    store: 'Consumi_Totali_Mensili',
     axes: [
 		{
 		type: 'Numeric',
@@ -54,11 +54,12 @@ Ext.define('ExtPOD.view.chart.Consumi_Totali_Mensili_Chart', {
 				title: ['Consumi Teorici'],
                 tips: {
                     trackMouse: true,
-                    width: 110,
-                    height: 40,
+					fill: '#18428E',
+                    width: 120,
+                    height: 50,
                     renderer: function(storeItem, item) {
 						useThousandSeparator: true,
-                        this.setTitle( storeItem.get('consumi_teorici') + ' MWh <br />' + 
+                        this.setTitle( Ext.util.Format.number(storeItem.get('consumi_teorici'),'0,000.00') + ' MWh <br />' + 
 										Ext.Date.format(storeItem.get('data_consumi')," M, Y"));
                     }
                 },				

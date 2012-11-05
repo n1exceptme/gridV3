@@ -6,11 +6,11 @@ Ext.define('ExtPOD.view.consumi.Consumi_Totali_Mensili_Grid' ,{
 	
     iconCls: 'icon-grid',
 
-    title : 'Consumi Totali Commessa',
-    store: 'Consumi_Totali',
+    title : 'Consumi Totali Mensili',
+    store: 'Consumi_Totali_Mensili',
 	
 	width: 700,
-	height: 500,
+	flex: 350,
 	
 	formatt_numeri_float: function(val) {
 		if (val > 0) {

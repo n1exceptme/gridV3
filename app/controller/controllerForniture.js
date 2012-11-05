@@ -10,15 +10,28 @@ Ext.MessageBox = Ext.Msg = Ext.create('Ext.window.MessageBox', {
 Ext.define('ExtPOD.controller.ControllerForniture', {
     extend: 'Ext.app.Controller',
 
-    stores: ['Forniture','Consumi','Volture','Consumi_Totali'],
+    stores: [
+			'Forniture',
+			'Consumi',
+			'Volture',
+			'Consumi_Totali_Mensili',
+			'Consumi_Totali_Annui'
+			],
 
-    models: ['Fornitura','Consumo','Voltura','Consumo_Totale'],
+    models: [
+			'Fornitura',
+			'Consumo',
+			'Voltura',
+			'Consumo_Totale_Mensile',
+			'Consumo_Totale_Annuo'
+			],
 
     views: [
 		'fornitura.EditForm', 
 		'fornitura.FornitureGrid',
 		'consumi.ConsumiGrid',
-		'consumi.Consumi_Totali_Grid',
+		'consumi.Consumi_Totali_Mensili_Grid',
+		'consumi.Consumi_Totali_Annui_Grid',
 		'volture.VoltureGrid',
 		'fornitura.Scheda',
 		'chart.ConsumiBar',

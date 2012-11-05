@@ -1,16 +1,16 @@
-Ext.define('ExtPOD.view.consumi.Consumi_Totali_Mensili_Grid' ,{
+Ext.define('ExtPOD.view.consumi.Consumi_Totali_Annui_Grid' ,{
 	extend: 'Ext.grid.Panel',
-    alias : 'widget.Consumi_Totali_Mensili_Grid',
+    alias : 'widget.Consumi_Totali_Annui_Grid',
 
 	columnLines: true,
 	
     iconCls: 'icon-grid',
 
-    title : 'Consumi Totali Commessa',
-    store: 'Consumi_Totali',
+    title : 'Consumi Totali Annui',
+    store: 'Consumi_Totali_Annui',
 	
 	width: 700,
-	height: 500,
+	height: 150,
 	
 	formatt_numeri_float: function(val) {
 		if (val > 0) {
@@ -32,32 +32,15 @@ Ext.define('ExtPOD.view.consumi.Consumi_Totali_Mensili_Grid' ,{
 					sortable: false
 					},
 					{
-					xtype: 'datecolumn',
-					format:'M, Y',
-					text: 'Data Consumi',
-					dataIndex: 'data_consumi',
-					width: 110,
-					align: 'center',
-					},
-					{
 					text: 'Anno', 
 					dataIndex: 'anno_consumi',   
 					width:110, 
 					align:'center',
-					sortable: false,
-					hidden: true
-					},
-					{
-					text: 'Mese', 
-					dataIndex: 'mese_consumi',  
-					width:100, 
-					align:'center', 
-					sortable: false,
-					hidden: true
+					sortable: false
 					},
 					{ 
 					text: 'Consumi Teorici<br />(MWh)',
-					dataIndex:'consumi_teorici',
+					dataIndex:'consumi_teorici_annui',
 					type: 'float', 
 					width:100, 
 					align:'right',
@@ -67,7 +50,7 @@ Ext.define('ExtPOD.view.consumi.Consumi_Totali_Mensili_Grid' ,{
 					},
 					{ 
 					text: 'Letture<br /> (MWh)',
-					dataIndex:'letture',
+					dataIndex:'letture_annue',
 					type: 'float', 
 					width:100, 
 					align:'right',
@@ -77,7 +60,7 @@ Ext.define('ExtPOD.view.consumi.Consumi_Totali_Mensili_Grid' ,{
 					},
 					{ 
 					text: 'Telecontrollo<br /> (MWh)',
-					dataIndex: 'telecontrollo',
+					dataIndex: 'telecontrollo_annuo',
 					type: 'float', 
 					width:100, 
 					align:'right',
@@ -87,7 +70,7 @@ Ext.define('ExtPOD.view.consumi.Consumi_Totali_Mensili_Grid' ,{
 					},
 					{ 
 					text: 'Consumi Fatturati<br />(MWh)',
-					dataIndex:'consumi_fatturati',
+					dataIndex:'consumi_fatturati_annui',
 					type: 'float', 
 					width:100, 
 					align:'right',

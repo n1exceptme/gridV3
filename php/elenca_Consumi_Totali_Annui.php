@@ -15,13 +15,9 @@
 	}
 	else {
 		$queryString = "
-				SELECT *
-				FROM (
-				SELECT * FROM `consumi_totali_view`
-				ORDER BY `anno_consumi` DESC , `mese_consumi` DESC				
-				) AS `ultimo_anno`
-				ORDER BY `ultimo_anno`.`anno_consumi` ASC , `ultimo_anno`.`mese_consumi` ASC
-			";
+				SELECT * 
+				FROM `consumi_totali_annui_view`
+				ORDER BY `anno_consumi` ASC";
 	}
 	
 	//esegui la query sql
@@ -42,6 +38,6 @@
 	echo json_encode(array(
 		"success" => mysql_errno() == 0,
 		"total" => $total,
-		"consumi_totali" => $consumi
+		"consumi_totali_annui" => $consumi
 	));
 ?>
