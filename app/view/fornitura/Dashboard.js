@@ -36,7 +36,7 @@ Ext.define('ExtPOD.view.fornitura.Dashboard', {
         items: [
 			{
             xtype:'tabpanel',
-            activeItem:0,
+            activeTab:3,
 			height: 400,
 			split: true,
 			autoScroll:true,
@@ -60,6 +60,12 @@ Ext.define('ExtPOD.view.fornitura.Dashboard', {
 					id:'volturazionitab',
 					iconCls:'icon-volture',
 					xtype: 'VoltureGrid'
+					},
+					{
+					title:'Consumi Totali Commessa',
+					id:'consumi_totali_tab',
+					iconCls:'icon-consumi_fatturati',
+					xtype: 'Consumi_Totali_Grid'
 					}
 					]
 			},
@@ -76,7 +82,7 @@ Ext.define('ExtPOD.view.fornitura.Dashboard', {
         },
 		{	
 			xtype: 'tabpanel',
-            activeTab: 0,
+            activeTab: 2,
             defaults:{
                 bodyStyle:'padding:10px'
             },			
@@ -84,7 +90,7 @@ Ext.define('ExtPOD.view.fornitura.Dashboard', {
 			iconCls: 'icon-chart',
 			split: true,
 			height: 300,
-			hidden: true,
+			hidden: false,
 			id: 'chartpanel',
 			layout: 'fit',
 			margin: '5 0 0 0',
@@ -96,6 +102,14 @@ Ext.define('ExtPOD.view.fornitura.Dashboard', {
 					{
 					title: 'Consumi',
 					xtype: 'ConsumiLine'
+					},
+					{
+					title: 'Consumi Totali Mensili',
+					xtype: 'Consumi_Totali_Mensili_Chart'
+					},
+					{
+					title: 'Consumi Totali Annui',
+					xtype: 'Consumi_Totali_Annui_Chart'
 					}				
 					]
 		}	
