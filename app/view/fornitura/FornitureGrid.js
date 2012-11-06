@@ -7,12 +7,14 @@ Ext.define('ExtPOD.view.fornitura.FornitureGrid' ,{
 	//selModel: sm,
 	
     requires: [
-		'Ext.toolbar.Paging',
-		'Ext.ux.PagingToolbarResizer',
+		//'Ext.toolbar.Paging',
+		//'Ext.ux.PagingToolbarResizer',
 		'Ext.ux.LiveSearchGridPanel'
 	],
     
 	verticalScrollerType: 'paginggridscroller',
+	leadingBufferZone: 30,
+	trailingBufferZone: 30,
 	invalidateScrollerOnRefresh: false,	
 	
 	indexes:['pod','codice_cliente','toponimo'],
@@ -202,7 +204,7 @@ Ext.define('ExtPOD.view.fornitura.FornitureGrid' ,{
 				},'->',
 				{
                 iconCls: 'icon-grafico',
-                text: 'Mostra Grafici',
+                text: 'Nascondi Grafici',
                 width: 110,
 				enableToggle: true,
 				border: 1,
@@ -266,19 +268,19 @@ Ext.define('ExtPOD.view.fornitura.FornitureGrid' ,{
 				}     				
 				]
 			}, */
-			{
+			/*{
 			xtype: 'pagingtoolbar',
 			dock:'bottom',
 			store: 'Forniture',
 			displayInfo: true,
 			displayMsg: 'Forniture {0} - {1} di {2}',
 			emptyMsg: "Nessuna fornitura trovata.",
-			plugins : [{
+ 			plugins : [{
 				ptype: 'pagingtoolbarresizer', 
 				options : [ 10, 20, 30, 50, 100, 200, 300 ]
-			}]			
+			}]	 		
 			
-			}
+			}*/
 			];
 		
 		this.callParent(arguments);

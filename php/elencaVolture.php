@@ -1,5 +1,5 @@
 <?php
-	//include la configurazione per la connessione al DBMS
+/* 	//include la configurazione per la connessione al DBMS
 	include("connetti.php");
 
     if (isset($_GET['sort'])) {
@@ -36,5 +36,5 @@
 		"success" => mysql_errno() == 0,
 		"total" => $total,
 		"consumi" => $consumi
-	));
+	)); */
 ?>

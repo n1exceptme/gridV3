@@ -35,7 +35,7 @@ Ext.define('ExtPOD.view.fornitura.Dashboard', {
         items: [
 			{
             xtype:'tabpanel',
-            activeTab:3,
+            activeTab:0,
 			height: 400,
 			split: true,
 			autoScroll:true,
@@ -87,7 +87,7 @@ Ext.define('ExtPOD.view.fornitura.Dashboard', {
         },
 		{	
 			xtype: 'tabpanel',
-            activeTab: 2,
+            activeTab: 0,
             defaults:{
                 bodyStyle:'padding:10px'
             },			

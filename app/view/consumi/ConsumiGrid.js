@@ -16,6 +16,8 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 	verticalScrollerType: 'paginggridscroller',
 	invalidateScrollerOnRefresh: false,
 	
+	indexes:['pod'],
+	
 	width: 700,
 	height: 500,	
 

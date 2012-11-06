@@ -34,7 +34,7 @@
 	}
 
 	//rileva il "numero" di record contenuti nel db
-	$queryTotal = mysql_query('SELECT count(*) as num FROM consumi5') or die(mysql_error());
+	$queryTotal = mysql_query('SELECT count(*) as num FROM consumi_totali_mensili_view') or die(mysql_error());
 	$row = mysql_fetch_assoc($queryTotal);
 	$total = $row['num'];
 

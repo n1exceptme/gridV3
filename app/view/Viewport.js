@@ -11,12 +11,13 @@ Ext.define('ExtPOD.view.Viewport', {
         'ExtPOD.view.fornitura.FornitureGrid',
 		'ExtPOD.view.fornitura.Scheda',
         'ExtPOD.view.fornitura.EditForm',
-		'ExtPOD.view.consumi.ConsumiGrid',
-		'ExtPOD.view.consumi.Consumi_Fatturati_Grid',
+		'ExtPOD.view.consumi.Consumi_Totali_Mensili_Grid',
+		'ExtPOD.view.consumi.Consumi_Totali_Annui_Grid',
 		'ExtPOD.view.volture.VoltureGrid',
 		'ExtPOD.view.chart.ConsumiBar',
 		'ExtPOD.view.chart.ConsumiLine',
-		'ExtPOD.view.chart.Consumi_Fatturati_Chart'
+		'ExtPOD.view.chart.Consumi_Totali_Mensili_Chart',
+		'ExtPOD.view.chart.Consumi_Totali_Annui_Chart'
     ],
     
     initComponent: function() {

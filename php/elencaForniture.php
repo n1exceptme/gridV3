@@ -6,6 +6,8 @@
 	$limit = $_REQUEST['limit'];
 	
 	$task = '';
+	
+	$commessa = $_SESSION['comune'];
 
   	if(isset($_REQUEST['task'])) {
 		$task = $_REQUEST['task'];
@@ -38,18 +40,18 @@
 	
 	switch($task) {
 		case "LISTING":
-			$queryString = "SELECT * FROM anagrafica3 
+			$queryString = "SELECT * FROM anagrafica4 
 						ORDER BY $sortField $sortOrder 
 						LIMIT $start,  $limit";
 		break;
 		
 		case "SEARCH":
-			$queryString = "SELECT * FROM anagrafica3 WHERE $filterField LIKE '%".$filterValue."%'".
+			$queryString = "SELECT * FROM anagrafica4 WHERE $filterField LIKE '%".$filterValue."%'".
 							" ORDER BY $sortField $sortOrder LIMIT $start, $limit";
 		break;
 		
 		default:
-			$queryString = "SELECT * FROM anagrafica3 ORDER BY $sortField $sortOrder LIMIT $start,  $limit";
+			$queryString = "SELECT * FROM anagrafica4 ORDER BY $sortField $sortOrder LIMIT $start,  $limit";
 		break;
 	}
 
@@ -63,7 +65,7 @@
 	}
 
 	//rileva il "numero" di record contenuti nel db
-	$queryTotal = mysql_query('SELECT count(*) as num FROM anagrafica3') or die(mysql_error());
+	$queryTotal = mysql_query('SELECT count(*) as num FROM anagrafica4') or die(mysql_error());
 	$row = mysql_fetch_assoc($queryTotal);
 	$total = $row['num'];
 

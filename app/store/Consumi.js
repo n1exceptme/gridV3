@@ -15,7 +15,8 @@ Ext.define('ExtPOD.store.Consumi', {
 
 	// allow the grid to interact with the paging scroller by buffering
 	buffered: true,
-	leadingBufferZone: 300,
+	leadingBufferZone: 50,
+	trailingBufferZone: 50,
 	pageSize: 200,
 
     proxy: {
