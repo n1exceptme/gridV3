@@ -5,19 +5,21 @@
 Ext.define('ExtPOD.store.Consumi', {
     extend: 'Ext.data.Store',
     model: 'ExtPOD.model.Consumo',
+	
+	storeId: 'Consumi',
+	
     remoteSort:true,
+	//remoteFilter: true,
 	simpleSortMode:true,
 	autoLoad: true,
     sorters : {
-        property : 'id',
+        property : 'pod',
         direction : 'ASC'
     },
 
 	// allow the grid to interact with the paging scroller by buffering
 	buffered: true,
-	leadingBufferZone: 50,
-	trailingBufferZone: 50,
-	pageSize: 200,
+	pageSize: 100,
 
     proxy: {
         type: 'ajax',
@@ -31,6 +33,7 @@ Ext.define('ExtPOD.store.Consumi', {
         reader: {
             type: 'json',
             root: 'consumi',
+			idProperty: 'id',
             successProperty: 'success'
         },
         writer: {

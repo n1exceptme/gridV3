@@ -1,25 +1,48 @@
+var filtersCfg = {
+    ftype: 'filters',
+    encode: true,
+	local: false,
+	updateBuffer: 1000
+};
+
+
 Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
-    extend: 'Ext.ux.LiveFilterGridPanel',
+    extend: 'Ext.grid.Panel',
     alias : 'widget.ConsumiGrid',
 
     requires: [
-		'Ext.ux.LiveSearchGridPanel'
+		'Ext.ux.grid.FiltersFeature',
+		'Ext.grid.PagingScroller'
 	],
 	
 	columnLines: true,
 	
     iconCls: 'icon-grid',
 
+	features: [filtersCfg],
+	
     title : 'Consumi',
     store: 'Consumi',
 	
-	verticalScrollerType: 'paginggridscroller',
-	invalidateScrollerOnRefresh: false,
+	// Use a PagingGridScroller (this is interchangeable with a PagingToolbar)
+    verticalScrollerType: 'paginggridscroller',
+    verticalScroller: {
+        numFromEdge: 0,
+        trailingBufferZone: 500,
+        leadingBufferZone: 1000
+    },
+	// do not reset the scrollbar when the view refreshs
+	invalidateScrollerOnRefresh: true,
+	// infinite scrolling does not support selection
+	disableSelection: true,   
+	loadMask: true,
+	viewConfig: {
+		trackOver: false
+	},	
 	
-	indexes:['pod'],
-	
-	width: 700,
-	height: 500,	
+
+	width: 600,
+	height: 600,	
 
 	formatt_numeri_float: function(val) {
 		if (val > 0) {
@@ -35,7 +58,7 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					[
 					{
 					xtype: 'rownumberer',
-					width: 35,
+					width: 50,
 					align: 'left',
 					locked: true,
 					sortable: false
@@ -46,7 +69,10 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					width:110, 
 					align:'center',
 					editor: 'textfield',
-					sortable: true
+					sortable: true,
+					filter: {
+						type: 'string'
+					}					
 					},
 					{
 					text: 'Fornitore', 
@@ -54,7 +80,8 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					width:110, 
 					align:'center',
 					editor: 'textfield',
-					sortable: true
+					sortable: true,
+					filter: true
 					},
 					{
 					text: 'Tipo di<br>documento', 
@@ -62,7 +89,14 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					width:110, 
 					align:'center',
 					editor: 'textfield',
-					sortable: true
+					sortable: true,
+                    filter: {
+                        type: 'list',
+                        options: [
+                            'C', 'D', 'F', 'M', 'R', 'S'
+                        ],
+						phpMode: true
+                    },					
 					},
 					{
 					text: 'Numero Fiscale', 
@@ -70,35 +104,42 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					width:110, 
 					align:'center',
 					editor: 'textfield',
-					sortable: true
+					sortable: true,
+					filter: true
 					},							
 					{
 					text: 'Mese di<br>Riferimento', 
 					dataIndex: 'mese_riferimento',  
 					width:80, 
 					align:'center', 
-					sortable: true
+					sortable: true,
+                    filter: {
+                        type: 'numeric'  // specify type here or in store fields config
+                    }					
 					},
 					{
 					text: 'Anno di<br>Riferimento', 
 					dataIndex: 'anno_riferimento',  
 					width:80, 
 					align:'center', 
-					sortable: true
+					sortable: true,
+					filter: true				
 					},
 					{
 					text: 'Mese <br>Consumi', 
 					dataIndex: 'mese_consumi',  
 					width:80, 
 					align:'center', 
-					sortable: true
+					sortable: true,
+					filter: true
 					},
 					{
 					text: 'Anno <br>Consumi', 
 					dataIndex: 'anno_consumi',  
 					width:80, 
 					align:'center', 
-					sortable: true
+					sortable: true,
+					filter: true
 					},					
 					{
 					text: 'Data di<br>emissione', 
@@ -106,141 +147,175 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					width:80, 
 					align:'center', 
 					sortable: true,
+					filterable:true,
+					filter: {
+						type: 'date'
+						//value:1,    // 0 is false, 1 is true
+						//active:true // turn on the filter
+						},				
 					renderer: Ext.util.Format.dateRenderer('d/m/Y')
 					},
-					{ text: 'Totale Fattura<br>Netto',
-					 dataIndex:'totale_fattura_netto',
+					{ 
+					text: 'Totale Fattura<br>Netto',
+					dataIndex:'totale_fattura_netto',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
+					},	
+					{
+					text: 'Importo IVA',
+					dataIndex:'importo_iva',
+					type: 'float', 
+					width:70, 
+					align:'right', 
+					sortable: true,
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
-					{ text: 'Importo IVA',
-					 dataIndex:'importo_iva',
+					{ 
+					text: 'Totale Fattura',
+					dataIndex:'totale_fattura',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
-					{ text: 'Totale Fattura',
-					 dataIndex:'totale_fattura',
+					{ 
+					text: 'Consumo F1',
+					dataIndex:'consumo_f1',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
-					{ text: 'Consumo F1',
-					 dataIndex:'consumo_f1',
+					{ 
+					text: 'Consumo F2',
+					dataIndex:'consumo_f2',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
-					{ text: 'Consumo F2',
-					 dataIndex:'consumo_f2',
+					{ 
+					text: 'Consumo F3',
+					dataIndex:'consumo_f3',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
-					{ text: 'Consumo F3',
-					 dataIndex:'consumo_f3',
+					{ 
+					text: 'Consumo Fascia Peak',
+					dataIndex:'consumo_fascia_peak',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
-					{ text: 'Consumo Fascia Peak',
-					 dataIndex:'consumo_fascia_peak',
+					{ 
+					text: 'Consumo Fascia Off Peak',
+					dataIndex:'consumo_fascia_off_peak',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
-					{ text: 'Consumo Fascia Off Peak',
-					 dataIndex:'consumo_fascia_off_peak',
+					{ 
+					text: 'Consumo F0',
+					dataIndex:'consumo_f0',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
-					{ text: 'Consumo F0',
-					 dataIndex:'consumo_f0',
+					{ 
+					text: 'Importo Totale<br>Attiva F1',
+					dataIndex:'importo_totale_attiva_f1',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
-					{ text: 'Importo Totale<br>Attiva F1',
-					 dataIndex:'importo_totale_attiva_f1',
+					{ 
+					text: 'Importo Totale<br>Attiva F2',
+					dataIndex:'importo_totale_attiva_f2',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
-					{ text: 'Importo Totale<br>Attiva F2',
-					 dataIndex:'importo_totale_attiva_f2',
+					{ 
+					text: 'Importo Totale<br>Attiva F3',
+					dataIndex:'importo_totale_attiva_f3',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
-					{ text: 'Importo Totale<br>Attiva F3',
-					 dataIndex:'importo_totale_attiva_f3',
+					{ 
+					text: 'Importo Totale<br>Attiva Peak',
+					dataIndex:'importo_totale_attiva_peak',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
-					{ text: 'Importo Totale<br>Attiva Peak',
-					 dataIndex:'importo_totale_attiva_peak',
+					{ 
+					text: 'Importo Totale<br>Attiva Off Peak',
+					dataIndex:'importo_totale_attiva_off_peak',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
-
-					{ text: 'Importo Totale<br>Attiva Off Peak',
-					 dataIndex:'importo_totale_attiva_off_peak',
+					{ 
+					text: 'Importo Totale<br>Attiva F0',
+					dataIndex:'importo_totale_attiva_f0',
 					type: 'float', 
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
-					},	
-
-					{ text: 'Importo Totale<br>Attiva F0',
-					 dataIndex:'importo_totale_attiva_f0',
-					type: 'float', 
-					width:70, 
-					align:'right', 
-					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
 					{ text: 'Importo Totale<br>Reattiva',
@@ -249,7 +324,8 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
 					{ text: 'Totale Distribuzione',
@@ -258,7 +334,8 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
 					{ text: 'Totale Parte A',
@@ -267,7 +344,8 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
 					{ text: 'Imposte Erariali',
@@ -276,7 +354,8 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
+					renderer : this.formatt_numeri_float,
+					filter: true
 					},	
 
 					{ text: 'Totale Dispacciamento',
@@ -285,26 +364,43 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
 					width:70, 
 					align:'right', 
 					sortable: true,
-					renderer : this.formatt_numeri_float
-					}					
+					renderer : this.formatt_numeri_float,
+					filter: true
+					}						
 		];	
-	
+
+		this.dockedItems = [
+                {
+                    xtype: 'toolbar',
+                    dock: 'bottom',
+                    displayInfo: true,
+                    store: 'Consumi',
+                    items: [
+                        {
+                            xtype: 'tbfill'
+                        },
+                        {
+                            xtype: 'button',
+                            itemId: 'filterData',
+                            text: 'Filtri Attivi',
+                            tooltip: 'Visualizza Filtri Attivi'
+                        },
+                        {
+                            xtype: 'button',
+                            itemId: 'clearFilter',
+                            text: 'Resetta Filtri'
+                        }
+                    ]
+                }		
+		];
+		
 		this.listeners = [ {
 				sortchange: function(){
-					var grid = Ext.ComponentQuery.query('ConsumiGrid')[0];
-					grid.getStore().load();
+					//var grid = Ext.ComponentQuery.query('ConsumiGrid')[0];
+					getConsumiStore().load();
 				}
-				}];	
-		
-		this.dockedItems = [
-			{
-            xtype: 'toolbar',
-            items: [
-
-			]
-			}
-
-			];
+				}
+		];	
 		
 		// trigger the data store load
 		//ConsumiStore.guaranteeRange(0, 199);

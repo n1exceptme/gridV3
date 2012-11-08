@@ -9,6 +9,7 @@ Ext.define('ExtPOD.view.Viewport', {
     requires: [
 		'ExtPOD.view.fornitura.Dashboard',
         'ExtPOD.view.fornitura.FornitureGrid',
+		'ExtPOD.view.consumi.ConsumiGrid',
 		'ExtPOD.view.fornitura.Scheda',
         'ExtPOD.view.fornitura.EditForm',
 		'ExtPOD.view.consumi.Consumi_Totali_Mensili_Grid',

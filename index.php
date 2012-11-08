@@ -18,6 +18,8 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/app.css">
 	<link rel="stylesheet" type="text/css" href="../ux/css/LiveSearchGridPanel.css" />
     <link rel="stylesheet" type="text/css" href="../ux/statusbar/css/statusbar.css" />
+    <link rel="stylesheet" type="text/css" href="../ux/grid/css/GridFilters.css" />
+    <link rel="stylesheet" type="text/css" href="../ux/grid/css/RangeMenu.css" />		
 	
 	<script type="text/javascript" src="extjs/ext-all-debug.js"></script>
 	<script type="text/javascript" src="extjs/ext-lang-it.js"></script>
