@@ -65,13 +65,14 @@ Ext.define('ExtPOD.view.fornitura.Dashboard', {
 					id: 'consumimensilitab',
 					iconCls:'icon-consumimensili',
 					xtype: 'Consumi_Totali_Mensili_Grid'
-					},					
+					}
+/* 					,					
 					{
 					title:'Consumi Totali Annui',
 					id: 'consumiannuitab',
 					iconCls:'icon-consumiannui',
 					xtype: 'Consumi_Totali_Annui_Grid'
-					},	
+					} */
 					]
 			},
 			{
@@ -104,10 +105,10 @@ Ext.define('ExtPOD.view.fornitura.Dashboard', {
 					title: 'Potenza',
 					xtype: 'ConsumiBar'
 					},
-					{
+/* 					{
 					title: 'Consumi',
 					xtype: 'ConsumiLine'
-					},
+					}, */
 					{
 					title: 'Consumi Totali Mensili',
 					xtype: 'Consumi_Totali_Mensili_Chart'

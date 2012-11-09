@@ -5,8 +5,7 @@
 Ext.define('ExtPOD.store.Forniture', {
     extend: 'Ext.data.Store',
     model: 'ExtPOD.model.Fornitura',
-    pageSize: 30,
-    autoLoad: {start: 0, limit: 30},
+    autoLoad: true,
 	remoteSort:true,
 	simpleSortMode:true,
     sorters : {

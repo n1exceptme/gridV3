@@ -1,2389 +1,1026 @@
------------2012-11-08 12:53:25-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 0,50
- total : 17403
+-----------2012-11-09 11:55:24-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
  start : 0
- count : 50
+ limit : 100
+ count : Resource id #6
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:55:25-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ start : 200
+ limit : 100
+ count : Resource id #6
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:55:25-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ start : 100
+ limit : 100
+ count : Resource id #6
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:56:47-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 3 ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ start : 0
+ limit : 100
+ count : Resource id #6
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND mese_consumi = 3
+ qs :  AND mese_consumi = 3
+
+-----------2012-11-09 11:56:48-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 3 ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ start : 0
+ limit : 100
+ count : Resource id #6
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND mese_consumi = 3
+ qs :  AND mese_consumi = 3
+
+-----------2012-11-09 11:56:48-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 3 ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ start : 0
+ limit : 100
+ count : Resource id #6
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND mese_consumi = 3
+ qs :  AND mese_consumi = 3
+
+-----------2012-11-09 11:56:55-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 1 AND mese_consumi = 3 ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ start : 0
+ limit : 100
+ count : Resource id #6
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND mese_riferimento = 1 AND mese_consumi = 3
+ qs :  AND mese_riferimento = 1 AND mese_consumi = 3
+
+-----------2012-11-09 11:57:16-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 1 AND mese_consumi = 3 ORDER BY pod DESC LIMIT 0,100
+ total : Array
+ start : 0
+ limit : 100
+ count : Resource id #6
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND mese_riferimento = 1 AND mese_consumi = 3
+ qs :  AND mese_riferimento = 1 AND mese_consumi = 3
+
+-----------2012-11-09 11:57:44-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 3 ORDER BY pod DESC LIMIT 0,100
+ total : Array
+ start : 0
+ limit : 100
+ count : Resource id #6
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND mese_consumi = 3
+ qs :  AND mese_consumi = 3
+
+-----------2012-11-09 11:57:45-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 100,100
+ total : Array
+ start : 100
+ limit : 100
+ count : Resource id #6
  sortProperty : pod
  sortDirection : DESC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 12:53:26-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 50,50
- total : 17403
- start : 50
- count : 50
+-----------2012-11-09 11:57:45-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 200,100
+ total : Array
+ start : 200
+ limit : 100
+ count : Resource id #6
  sortProperty : pod
  sortDirection : DESC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 12:53:27-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 100,50
- total : 17403
- start : 100
- count : 50
+-----------2012-11-09 11:57:47-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND mese_riferimento < 5 AND mese_consumi = 3 ORDER BY pod DESC LIMIT 0,100
+ total : Array
+ start : 0
+ limit : 100
+ count : Resource id #6
  sortProperty : pod
  sortDirection : DESC
- where :  0 = 0 
- qs : 
+ where :  0 = 0  AND mese_riferimento < 5 AND mese_consumi = 3
+ qs :  AND mese_riferimento < 5 AND mese_consumi = 3
 
------------2012-11-08 12:53:27-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 200,50
- total : 17403
- start : 200
- count : 50
+-----------2012-11-09 11:57:48-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND mese_riferimento < 5 AND mese_consumi = 3 ORDER BY pod DESC LIMIT 0,100
+ total : Array
+ start : 0
+ limit : 100
+ count : Resource id #6
  sortProperty : pod
  sortDirection : DESC
- where :  0 = 0 
- qs : 
+ where :  0 = 0  AND mese_riferimento < 5 AND mese_consumi = 3
+ qs :  AND mese_riferimento < 5 AND mese_consumi = 3
 
------------2012-11-08 12:53:27-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod DESC LIMIT 150,50
- total : 17403
- start : 150
- count : 50
+-----------2012-11-09 11:57:49-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND mese_riferimento < 5 AND mese_consumi = 3 ORDER BY pod DESC LIMIT 0,100
+ total : Array
+ start : 0
+ limit : 100
+ count : Resource id #6
  sortProperty : pod
  sortDirection : DESC
- where :  0 = 0 
- qs : 
+ where :  0 = 0  AND mese_riferimento < 5 AND mese_consumi = 3
+ qs :  AND mese_riferimento < 5 AND mese_consumi = 3
 
------------2012-11-08 12:53:35-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+-----------2012-11-09 12:05:09-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND fornitore LIKE '%Edison%' AND mese_riferimento < 5 AND mese_consumi = 3 ORDER BY pod DESC LIMIT 0,100
+ total : Array
+ start : 0
+ limit : 100
+ count : Resource id #6
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND fornitore LIKE '%Edison%' AND mese_riferimento < 5 AND mese_consumi = 3
+ qs :  AND fornitore LIKE '%Edison%' AND mese_riferimento < 5 AND mese_consumi = 3
+
+-----------2012-11-09 12:05:11-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND fornitore LIKE '%Edison%' AND mese_riferimento < 5 AND mese_consumi = 3 ORDER BY pod DESC LIMIT 0,100
+ total : Array
+ start : 0
+ limit : 100
+ count : Resource id #6
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND fornitore LIKE '%Edison%' AND mese_riferimento < 5 AND mese_consumi = 3
+ qs :  AND fornitore LIKE '%Edison%' AND mese_riferimento < 5 AND mese_consumi = 3
+
+-----------2012-11-09 12:05:11-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND fornitore LIKE '%Edison%' AND mese_riferimento < 5 AND mese_consumi = 3 ORDER BY pod DESC LIMIT 0,100
+ total : Array
+ start : 0
+ limit : 100
+ count : Resource id #6
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND fornitore LIKE '%Edison%' AND mese_riferimento < 5 AND mese_consumi = 3
+ qs :  AND fornitore LIKE '%Edison%' AND mese_riferimento < 5 AND mese_consumi = 3
+
+-----------2012-11-09 12:06:21-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND mese_riferimento < 5 AND mese_consumi = 3 ORDER BY pod DESC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 513
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND mese_riferimento < 5 AND mese_consumi = 3
+ qs :  AND mese_riferimento < 5 AND mese_consumi = 3
+
+-----------2012-11-09 12:06:22-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND mese_riferimento < 5 AND mese_consumi = 3 ORDER BY pod DESC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 513
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND mese_riferimento < 5 AND mese_consumi = 3
+ qs :  AND mese_riferimento < 5 AND mese_consumi = 3
+
+-----------2012-11-09 12:06:22-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND mese_riferimento < 5 AND mese_consumi = 3 ORDER BY pod DESC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 513
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : DESC
+ where :  0 = 0  AND mese_riferimento < 5 AND mese_consumi = 3
+ qs :  AND mese_riferimento < 5 AND mese_consumi = 3
+
+-----------2012-11-09 12:09:30-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
  total : 17403
  start : 0
- count : 50
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 12:53:37-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 50,50
- total : 17403
- start : 50
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 12:53:37-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 150,50
- total : 17403
- start : 150
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 12:53:37-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,50
+-----------2012-11-09 12:09:32-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
  total : 17403
  start : 200
- count : 50
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 12:53:38-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,50
+-----------2012-11-09 12:09:32-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
  total : 17403
  start : 100
- count : 50
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 12:53:46-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C'
- qs :  AND tipo_documento = 'C'
-
------------2012-11-08 12:53:47-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C'
- qs :  AND tipo_documento = 'C'
-
------------2012-11-08 12:53:48-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C'
- qs :  AND tipo_documento = 'C'
-
------------2012-11-08 12:53:48-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C'
- qs :  AND tipo_documento = 'C'
-
------------2012-11-08 12:53:48-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C'
- qs :  AND tipo_documento = 'C'
-
------------2012-11-08 12:53:56-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6
-
------------2012-11-08 12:53:58-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6
-
------------2012-11-08 12:53:58-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6
-
------------2012-11-08 12:53:58-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6
-
------------2012-11-08 12:53:58-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6
-
------------2012-11-08 12:54:04-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6
-
------------2012-11-08 12:54:06-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6
-
------------2012-11-08 12:54:07-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6
-
------------2012-11-08 12:54:08-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6
-
------------2012-11-08 12:54:08-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6
-
------------2012-11-08 12:54:09-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6
-
------------2012-11-08 12:54:09-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6
-
------------2012-11-08 12:54:10-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 ORDER BY pod ASC LIMIT 100,50
- total : 17403
- start : 100
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4
-
------------2012-11-08 12:54:17-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
-
------------2012-11-08 12:54:18-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
-
------------2012-11-08 12:54:18-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
-
------------2012-11-08 12:54:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
-
------------2012-11-08 12:54:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
-
------------2012-11-08 12:54:31-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100
-
------------2012-11-08 12:54:33-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100
-
------------2012-11-08 12:54:33-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100
-
------------2012-11-08 12:54:33-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100
-
------------2012-11-08 12:54:34-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 < 100
-
------------2012-11-08 12:54:41-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
-
------------2012-11-08 12:54:42-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
-
------------2012-11-08 12:54:42-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
-
------------2012-11-08 12:54:43-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
-
------------2012-11-08 12:54:43-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009
-
------------2012-11-08 12:54:45-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
-
------------2012-11-08 12:54:46-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
-
------------2012-11-08 12:54:46-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
-
------------2012-11-08 12:54:47-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
-
------------2012-11-08 12:54:47-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
-
------------2012-11-08 12:54:59-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
-
------------2012-11-08 12:55:00-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
-
------------2012-11-08 12:55:00-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
-
------------2012-11-08 12:55:00-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
-
------------2012-11-08 12:55:01-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
-
------------2012-11-08 12:55:05-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
-
------------2012-11-08 12:55:06-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
-
------------2012-11-08 12:55:06-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
-
------------2012-11-08 12:55:07-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
-
------------2012-11-08 12:55:07-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 100 AND consumo_f1 > 100
-
------------2012-11-08 12:55:07-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
-
------------2012-11-08 12:55:08-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
-
------------2012-11-08 12:55:08-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND consumo_f1 > 100
-
------------2012-11-08 12:55:09-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
-
------------2012-11-08 12:55:10-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
-
------------2012-11-08 12:55:10-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
-
------------2012-11-08 12:55:10-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
-
------------2012-11-08 12:55:11-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
-
------------2012-11-08 12:55:14-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
-
------------2012-11-08 12:55:15-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
-
------------2012-11-08 12:55:15-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
-
------------2012-11-08 12:55:15-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
-
------------2012-11-08 12:55:15-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 20 AND consumo_f1 > 100
-
------------2012-11-08 12:55:18-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100
-
------------2012-11-08 12:55:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100
-
------------2012-11-08 12:55:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100
-
------------2012-11-08 12:55:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100
-
------------2012-11-08 12:55:20-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100
- qs :  AND tipo_documento = 'C' AND mese_riferimento = 6 AND mese_consumi = 4 AND anno_consumi = 2009 AND totale_fattura_netto > 15 AND consumo_f1 > 100
-
------------2012-11-08 12:55:39-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9700,50
- total : 17403
- start : 9700
- count : 50
+-----------2012-11-09 12:09:39-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 13100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 13100
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 12:55:40-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9550,50
+-----------2012-11-09 12:09:39-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 13300,100
+ total : Array
+ count : Resource id #6
  total : 17403
- start : 9550
- count : 50
+ start : 13300
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 12:55:40-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9650,50
+-----------2012-11-09 12:09:39-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 13200,100
+ total : Array
+ count : Resource id #6
  total : 17403
- start : 9650
- count : 50
+ start : 13200
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 12:55:40-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9750,50
+-----------2012-11-09 12:09:40-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 13400,100
+ total : Array
+ count : Resource id #6
  total : 17403
- start : 9750
- count : 50
+ start : 13400
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 12:55:41-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9600,50
+-----------2012-11-09 12:09:51-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%418833%' ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 206
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%418833%'
+ qs :  AND pod LIKE '%418833%'
+
+-----------2012-11-09 12:09:52-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%418833%' ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 206
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%418833%'
+ qs :  AND pod LIKE '%418833%'
+
+-----------2012-11-09 12:09:52-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%418833%' ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 206
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%418833%'
+ qs :  AND pod LIKE '%418833%'
+
+-----------2012-11-09 12:10:15-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%41883%' ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 401
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%41883%'
+ qs :  AND pod LIKE '%41883%'
+
+-----------2012-11-09 12:10:16-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%41883%' ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 401
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%41883%'
+ qs :  AND pod LIKE '%41883%'
+
+-----------2012-11-09 12:10:16-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%41883%' ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 401
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND pod LIKE '%41883%'
+ qs :  AND pod LIKE '%41883%'
+
+-----------2012-11-09 12:10:33-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 400,100
+ total : Array
+ count : Resource id #6
  total : 17403
- start : 9600
- count : 50
+ start : 400
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 12:55:42-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9800,50
- total : 17403
- start : 9800
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 12:55:45-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9500,50
- total : 17403
- start : 9500
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 12:55:45-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9400,50
- total : 17403
- start : 9400
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 12:55:45-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9450,50
- total : 17403
- start : 9450
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:21-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:22-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,50
- total : 17403
- start : 100
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:22-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 150,50
- total : 17403
- start : 150
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:23-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 50,50
- total : 17403
- start : 50
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:23-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,50
- total : 17403
- start : 200
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:40-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9950,50
- total : 17403
- start : 9950
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:41-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 10000,50
- total : 17403
- start : 10000
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:41-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9900,50
- total : 17403
- start : 9900
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:41-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9800,50
- total : 17403
- start : 9800
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:41-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9750,50
- total : 17403
- start : 9750
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:42-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 9850,50
- total : 17403
- start : 9850
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:52-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 12 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_consumi = 12
- qs :  AND mese_consumi = 12
-
------------2012-11-08 13:00:54-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 12 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_consumi = 12
- qs :  AND mese_consumi = 12
-
------------2012-11-08 13:00:54-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 12 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_consumi = 12
- qs :  AND mese_consumi = 12
-
------------2012-11-08 13:00:54-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 12 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_consumi = 12
- qs :  AND mese_consumi = 12
-
------------2012-11-08 13:00:55-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 12 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_consumi = 12
- qs :  AND mese_consumi = 12
-
------------2012-11-08 13:00:57-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 12 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND mese_consumi = 12
- qs :  AND mese_consumi = 12
-
------------2012-11-08 13:00:58-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_consumi ASC LIMIT 50,50
- total : 17403
- start : 50
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:00:59-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_consumi ASC LIMIT 150,50
- total : 17403
- start : 150
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:01:00-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_consumi ASC LIMIT 100,50
- total : 17403
- start : 100
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:01:00-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_consumi ASC LIMIT 200,50
- total : 17403
- start : 200
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:01:04-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:06-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:06-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:06-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:06-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:16-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:18-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:18-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND pod LIKE '%00220%' AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:30-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:31-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:31-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:31-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:01:32-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009 ORDER BY anno_consumi ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_consumi
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009
- qs :  AND pod LIKE '%00220%' AND tipo_documento = 'M' AND mese_consumi = 12 AND anno_consumi = 2009
-
------------2012-11-08 13:04:36-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:04:38-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 150,50
- total : 17403
- start : 150
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:04:38-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,50
- total : 17403
- start : 100
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:04:39-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 50,50
- total : 17403
- start : 50
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:04:39-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,50
- total : 17403
- start : 200
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:04:52-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'R' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'R'
- qs :  AND tipo_documento = 'R'
-
------------2012-11-08 13:04:54-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'R' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'R'
- qs :  AND tipo_documento = 'R'
-
------------2012-11-08 13:04:54-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'R' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'R'
- qs :  AND tipo_documento = 'R'
-
------------2012-11-08 13:04:55-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'R' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'R'
- qs :  AND tipo_documento = 'R'
-
------------2012-11-08 13:04:55-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'R' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'R'
- qs :  AND tipo_documento = 'R'
-
------------2012-11-08 13:05:01-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'R' ORDER BY anno_riferimento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'R'
- qs :  AND tipo_documento = 'R'
-
------------2012-11-08 13:05:03-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 50,50
- total : 17403
- start : 50
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:05:04-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 100,50
- total : 17403
- start : 100
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:05:05-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 150,50
- total : 17403
- start : 150
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:05:05-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 200,50
- total : 17403
- start : 200
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:05:08-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'R' AND anno_riferimento = 2012 ORDER BY anno_riferimento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'R' AND anno_riferimento = 2012
- qs :  AND tipo_documento = 'R' AND anno_riferimento = 2012
-
------------2012-11-08 13:05:10-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'R' AND anno_riferimento = 2012 ORDER BY anno_riferimento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'R' AND anno_riferimento = 2012
- qs :  AND tipo_documento = 'R' AND anno_riferimento = 2012
-
------------2012-11-08 13:05:10-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'R' AND anno_riferimento = 2012 ORDER BY anno_riferimento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'R' AND anno_riferimento = 2012
- qs :  AND tipo_documento = 'R' AND anno_riferimento = 2012
-
------------2012-11-08 13:05:11-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'R' AND anno_riferimento = 2012 ORDER BY anno_riferimento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'R' AND anno_riferimento = 2012
- qs :  AND tipo_documento = 'R' AND anno_riferimento = 2012
-
------------2012-11-08 13:05:11-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'R' AND anno_riferimento = 2012 ORDER BY anno_riferimento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'R' AND anno_riferimento = 2012
- qs :  AND tipo_documento = 'R' AND anno_riferimento = 2012
-
------------2012-11-08 13:05:15-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 10350,50
- total : 17403
- start : 10350
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:05:15-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 300,50
+-----------2012-11-09 12:10:33-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 300,100
+ total : Array
+ count : Resource id #6
  total : 17403
  start : 300
- count : 50
- sortProperty : anno_riferimento
+ limit : 100
+ sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 13:05:15-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 10400,50
+-----------2012-11-09 12:10:44-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 500,100
+ total : Array
+ count : Resource id #6
  total : 17403
- start : 10400
- count : 50
- sortProperty : anno_riferimento
+ start : 500
+ limit : 100
+ sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 13:05:16-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 250,50
- total : 17403
- start : 250
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:05:16-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 10450,50
- total : 17403
- start : 10450
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:05:17-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 10500,50
- total : 17403
- start : 10500
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:05:17-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 10550,50
- total : 17403
- start : 10550
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:05:18-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 10600,50
- total : 17403
- start : 10600
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:05:20-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 10700,50
- total : 17403
- start : 10700
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:05:21-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 10750,50
- total : 17403
- start : 10750
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:05:21-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY anno_riferimento ASC LIMIT 10650,50
- total : 17403
- start : 10650
- count : 50
- sortProperty : anno_riferimento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:14-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
+-----------2012-11-09 12:19:24-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
  total : 17403
  start : 0
- count : 50
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 13:09:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 150,50
- total : 17403
- start : 150
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,50
- total : 17403
- start : 100
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 50,50
- total : 17403
- start : 50
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,50
+-----------2012-11-09 12:19:27-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
  total : 17403
  start : 200
- count : 50
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 13:09:26-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 3 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_riferimento = 3
- qs :  AND mese_riferimento = 3
-
------------2012-11-08 13:09:28-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 3 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_riferimento = 3
- qs :  AND mese_riferimento = 3
-
------------2012-11-08 13:09:28-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 3 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_riferimento = 3
- qs :  AND mese_riferimento = 3
-
------------2012-11-08 13:09:28-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 3 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_riferimento = 3
- qs :  AND mese_riferimento = 3
-
------------2012-11-08 13:09:29-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 3 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_riferimento = 3
- qs :  AND mese_riferimento = 3
-
------------2012-11-08 13:09:35-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:09:36-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:09:36-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:09:37-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:09:37-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:09:39-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:09:41-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 150,50
- total : 17403
- start : 150
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:41-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 100,50
+-----------2012-11-09 12:19:27-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
  total : 17403
  start : 100
- count : 50
- sortProperty : tipo_documento
+ limit : 100
+ sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 13:09:41-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 50,50
+-----------2012-11-09 12:19:34-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 1350
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D'
+ qs :  AND tipo_documento = 'D'
+
+-----------2012-11-09 12:19:36-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 1350
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D'
+ qs :  AND tipo_documento = 'D'
+
+-----------2012-11-09 12:19:36-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 1350
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D'
+ qs :  AND tipo_documento = 'D'
+
+-----------2012-11-09 12:19:45-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' AND mese_riferimento = 1 ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 0
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D' AND mese_riferimento = 1
+ qs :  AND tipo_documento = 'D' AND mese_riferimento = 1
+
+-----------2012-11-09 12:19:53-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' AND mese_riferimento < 3 ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 0
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D' AND mese_riferimento < 3
+ qs :  AND tipo_documento = 'D' AND mese_riferimento < 3
+
+-----------2012-11-09 12:20:00-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 1350
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D'
+ qs :  AND tipo_documento = 'D'
+
+-----------2012-11-09 12:20:01-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 1350
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D'
+ qs :  AND tipo_documento = 'D'
+
+-----------2012-11-09 12:20:01-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 1350
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D'
+ qs :  AND tipo_documento = 'D'
+
+-----------2012-11-09 12:20:09-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' AND anno_riferimento = 20 ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 0
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D' AND anno_riferimento = 20
+ qs :  AND tipo_documento = 'D' AND anno_riferimento = 20
+
+-----------2012-11-09 12:20:10-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' AND anno_riferimento = 2009 ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 0
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D' AND anno_riferimento = 2009
+ qs :  AND tipo_documento = 'D' AND anno_riferimento = 2009
+
+-----------2012-11-09 12:20:15-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' AND anno_riferimento = 2010 ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 430
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D' AND anno_riferimento = 2010
+ qs :  AND tipo_documento = 'D' AND anno_riferimento = 2010
+
+-----------2012-11-09 12:20:16-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' AND anno_riferimento = 2010 ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 430
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D' AND anno_riferimento = 2010
+ qs :  AND tipo_documento = 'D' AND anno_riferimento = 2010
+
+-----------2012-11-09 12:20:16-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'D' AND anno_riferimento = 2010 ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 430
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0  AND tipo_documento = 'D' AND anno_riferimento = 2010
+ qs :  AND tipo_documento = 'D' AND anno_riferimento = 2010
+
+-----------2012-11-09 12:20:19-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 400,100
+ total : Array
+ count : Resource id #6
  total : 17403
- start : 50
- count : 50
- sortProperty : tipo_documento
+ start : 400
+ limit : 100
+ sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 13:09:42-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 200,50
+-----------2012-11-09 12:20:20-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 300,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 300
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:14:33-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:14:34-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:14:34-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
  total : 17403
  start : 200
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:46-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:09:47-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:09:47-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:09:48-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:09:48-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:09:52-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 250,50
- total : 17403
- start : 250
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:53-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 8450,50
- total : 17403
- start : 8450
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:53-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 8550,50
- total : 17403
- start : 8550
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:53-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 8350,50
- total : 17403
- start : 8350
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:54-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 8500,50
- total : 17403
- start : 8500
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:54-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 8400,50
- total : 17403
- start : 8400
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:55-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 8600,50
- total : 17403
- start : 8600
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:58-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 8750,50
- total : 17403
- start : 8750
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:58-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 8700,50
- total : 17403
- start : 8700
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:09:58-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 8650,50
- total : 17403
- start : 8650
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:10:01-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 8800,50
- total : 17403
- start : 8800
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:10:02-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 15250,50
- total : 17403
- start : 15250
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:10:03-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 15200,50
- total : 17403
- start : 15200
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:10:03-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 15300,50
- total : 17403
- start : 15300
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:10:04-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 15100,50
- total : 17403
- start : 15100
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:10:04-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 15350,50
- total : 17403
- start : 15350
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:10:05-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 15400,50
- total : 17403
- start : 15400
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:10:05-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY tipo_documento ASC LIMIT 15150,50
- total : 17403
- start : 15150
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:10:17-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:10:17-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:10:17-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:10:18-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:10:18-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:10:18-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:10:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:10:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:10:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:10:19-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009 ORDER BY tipo_documento ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : tipo_documento
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
- qs :  AND pod LIKE '%9294%' AND tipo_documento = 'F' AND mese_riferimento = 3 AND anno_riferimento = 2009
-
------------2012-11-08 13:11:47-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 13:11:51-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 50,50
+-----------2012-11-09 13:17:21-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
  total : 17403
- start : 50
- count : 50
+ start : 0
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 13:11:51-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,50
+-----------2012-11-09 13:17:21-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
  total : 17403
  start : 100
- count : 50
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 13:11:52-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 150,50
- total : 17403
- start : 150
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 13:11:52-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,50
+-----------2012-11-09 13:17:22-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
  total : 17403
  start : 200
- count : 50
+ limit : 100
  sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 13:11:59-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%219293%' ORDER BY pod ASC LIMIT 0,50
+-----------2012-11-09 13:17:55-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
  total : 17403
  start : 0
- count : 50
+ limit : 100
  sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%219293%'
- qs :  AND pod LIKE '%219293%'
-
------------2012-11-08 13:12:00-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%219293%' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%219293%'
- qs :  AND pod LIKE '%219293%'
-
------------2012-11-08 13:12:00-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%219293%' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%219293%'
- qs :  AND pod LIKE '%219293%'
-
------------2012-11-08 13:12:01-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%219293%' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%219293%'
- qs :  AND pod LIKE '%219293%'
-
------------2012-11-08 13:12:01-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%219293%' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%219293%'
- qs :  AND pod LIKE '%219293%'
-
------------2012-11-08 13:12:09-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%219293%' AND tipo_documento = 'M' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%219293%' AND tipo_documento = 'M'
- qs :  AND pod LIKE '%219293%' AND tipo_documento = 'M'
-
------------2012-11-08 13:12:10-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%219293%' AND tipo_documento = 'M' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%219293%' AND tipo_documento = 'M'
- qs :  AND pod LIKE '%219293%' AND tipo_documento = 'M'
-
------------2012-11-08 13:12:10-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%219293%' AND tipo_documento = 'M' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%219293%' AND tipo_documento = 'M'
- qs :  AND pod LIKE '%219293%' AND tipo_documento = 'M'
-
------------2012-11-08 13:12:10-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%219293%' AND tipo_documento = 'M' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%219293%' AND tipo_documento = 'M'
- qs :  AND pod LIKE '%219293%' AND tipo_documento = 'M'
-
------------2012-11-08 13:12:10-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND pod LIKE '%219293%' AND tipo_documento = 'M' ORDER BY pod ASC LIMIT 0,50
- total : 17403
- start : 0
- count : 50
- sortProperty : pod
- sortDirection : ASC
- where :  0 = 0  AND pod LIKE '%219293%' AND tipo_documento = 'M'
- qs :  AND pod LIKE '%219293%' AND tipo_documento = 'M'
-
------------2012-11-08 14:44:37-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND fornitore LIKE '%ediso%' ORDER BY fornitore ASC LIMIT 0,50
- total : 
- start : 0
- count : 50
- sortProperty : fornitore
- sortDirection : ASC
- where :  0 = 0  AND fornitore LIKE '%ediso%'
- qs :  AND fornitore LIKE '%ediso%'
-
------------2012-11-08 14:44:39-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore ASC LIMIT 50,50
- total : 
- start : 50
- count : 50
- sortProperty : fornitore
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 14:44:40-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore ASC LIMIT 100,50
- total : 
+-----------2012-11-09 13:17:56-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
  start : 100
- count : 50
- sortProperty : fornitore
+ limit : 100
+ sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 14:44:40-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore ASC LIMIT 150,50
- total : 
- start : 150
- count : 50
- sortProperty : fornitore
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 14:44:40-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND fornitore LIKE '%ediso%' ORDER BY fornitore ASC LIMIT 0,50
- total : 
- start : 0
- count : 50
- sortProperty : fornitore
- sortDirection : ASC
- where :  0 = 0  AND fornitore LIKE '%ediso%'
- qs :  AND fornitore LIKE '%ediso%'
-
------------2012-11-08 14:44:40-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND fornitore LIKE '%ediso%' ORDER BY fornitore DESC LIMIT 0,50
- total : 
- start : 0
- count : 50
- sortProperty : fornitore
- sortDirection : DESC
- where :  0 = 0  AND fornitore LIKE '%ediso%'
- qs :  AND fornitore LIKE '%ediso%'
-
------------2012-11-08 14:44:42-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore DESC LIMIT 50,50
- total : 
- start : 50
- count : 50
- sortProperty : fornitore
- sortDirection : DESC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 14:44:42-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore DESC LIMIT 150,50
- total : 
- start : 150
- count : 50
- sortProperty : fornitore
- sortDirection : DESC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 14:44:42-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore DESC LIMIT 100,50
- total : 
- start : 100
- count : 50
- sortProperty : fornitore
- sortDirection : DESC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 14:44:42-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND fornitore LIKE '%ediso%' ORDER BY fornitore DESC LIMIT 0,50
- total : 
- start : 0
- count : 50
- sortProperty : fornitore
- sortDirection : DESC
- where :  0 = 0  AND fornitore LIKE '%ediso%'
- qs :  AND fornitore LIKE '%ediso%'
-
------------2012-11-08 14:45:04-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  AND fornitore LIKE '%ediso%' ORDER BY fornitore ASC LIMIT 0,50
- total : 
- start : 0
- count : 50
- sortProperty : fornitore
- sortDirection : ASC
- where :  0 = 0  AND fornitore LIKE '%ediso%'
- qs :  AND fornitore LIKE '%ediso%'
-
------------2012-11-08 14:45:06-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore ASC LIMIT 50,50
- total : 
- start : 50
- count : 50
- sortProperty : fornitore
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 14:45:06-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore ASC LIMIT 150,50
- total : 
- start : 150
- count : 50
- sortProperty : fornitore
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 14:45:06-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore ASC LIMIT 100,50
- total : 
- start : 100
- count : 50
- sortProperty : fornitore
- sortDirection : ASC
- where :  0 = 0 
- qs : 
-
------------2012-11-08 14:45:07-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore ASC LIMIT 200,50
- total : 
+-----------2012-11-09 13:17:56-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
  start : 200
- count : 50
- sortProperty : fornitore
+ limit : 100
+ sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 14:45:08-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore ASC LIMIT 1150,50
- total : 
- start : 1150
- count : 50
- sortProperty : fornitore
+-----------2012-11-09 13:19:16-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 14:45:08-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore ASC LIMIT 1050,50
- total : 
- start : 1050
- count : 50
- sortProperty : fornitore
+-----------2012-11-09 13:19:18-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 14:45:08-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore ASC LIMIT 1100,50
- total : 
- start : 1100
- count : 50
- sortProperty : fornitore
+-----------2012-11-09 13:19:18-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 
 
------------2012-11-08 14:45:09-----------
- queryString : SELECT * FROM consumi6 WHERE  0 = 0  ORDER BY fornitore ASC LIMIT 1000,50
- total : 
- start : 1000
- count : 50
- sortProperty : fornitore
+-----------2012-11-09 13:26:24-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:26:25-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:26:25-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:26:55-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:26:56-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:26:56-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:27:30-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:27:30-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:27:30-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:28:13-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:28:14-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:28:15-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:30:07-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:30:08-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:30:08-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 14:53:33-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 14:53:34-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 14:53:35-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 14:54:03-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 14:54:05-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 14:54:06-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
  sortDirection : ASC
  where :  0 = 0 
  qs : 

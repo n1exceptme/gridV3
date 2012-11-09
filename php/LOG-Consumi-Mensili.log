@@ -1,0 +1,1063 @@
+-----------2012-11-08 17:12:49-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi DESC 
+	LIMIT 0,50
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-08 17:20:53-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi DESC 
+	LIMIT 0,50
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-08 17:23:29-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	LIMIT 0,50
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : 
+ sortDirection : 
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-08 17:24:46-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  AND data_consumi < '2012-11-08' 
+	LIMIT 0,50
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : 
+ sortDirection : 
+ where :  0 = 0  AND data_consumi < '2012-11-08'
+ qs :  AND data_consumi < '2012-11-08'
+
+-----------2012-11-08 17:28:24-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-08 17:28:56-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  AND data_consumi > '2011-01-01' 
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0  AND data_consumi > '2011-01-01'
+ qs :  AND data_consumi > '2011-01-01'
+
+-----------2012-11-08 17:29:06-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  AND data_consumi > '2011-01-01' 
+	ORDER BY data_consumi DESC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : DESC
+ where :  0 = 0  AND data_consumi > '2011-01-01'
+ qs :  AND data_consumi > '2011-01-01'
+
+-----------2012-11-08 17:36:42-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-08 17:40:55-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-08 17:41:18-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  AND data_consumi = '2012-11-08' 
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0  AND data_consumi = '2012-11-08'
+ qs :  AND data_consumi = '2012-11-08'
+
+-----------2012-11-08 17:41:31-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  AND data_consumi = '2009-01-01' 
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0  AND data_consumi = '2009-01-01'
+ qs :  AND data_consumi = '2009-01-01'
+
+-----------2012-11-08 17:43:06-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-08 17:43:30-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi DESC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-08 17:43:32-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-08 17:43:59-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  AND data_consumi > '2012-01-01' 
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0  AND data_consumi > '2012-01-01'
+ qs :  AND data_consumi > '2012-01-01'
+
+-----------2012-11-08 17:47:00-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-08 17:48:54-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-08 17:49:40-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-08 17:58:18-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:04:31-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:05:53-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:18:20-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:20:21-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:24:33-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:25:20-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:27:17-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:28:06-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:31:59-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:32:32-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:33:56-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:34:15-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:34:41-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:35:42-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:36:17-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:36:44-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:38:09-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:44:18-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:45:54-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:46:51-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:50:02-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:58:10-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 10:58:47-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:03:17-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:09:01-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY mese_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : mese_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:10:13-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:10:19-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi DESC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:10:51-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY mese_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : mese_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:11:42-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY anno_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : anno_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:17:55-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi DESC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:17:59-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:18:15-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:19:02-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi DESC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : DESC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:19:13-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:23:36-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:24:02-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:25:52-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:35:35-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 11:55:23-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 12:09:29-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 12:19:21-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:14:33-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:17:20-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:17:56-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:19:16-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:26:24-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:26:54-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:27:29-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:28:12-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 13:30:08-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 14:53:33-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-09 14:54:03-----------
+ queryString : 
+	SELECT SQL_CALC_FOUND_ROWS * 
+	FROM consumi_totali_mensili_view 
+	WHERE  0 = 0  
+	ORDER BY data_consumi ASC 
+	LIMIT 0,100
+ total : Array
+ start : 0
+ count : Resource id #6
+ sortProperty : data_consumi
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+

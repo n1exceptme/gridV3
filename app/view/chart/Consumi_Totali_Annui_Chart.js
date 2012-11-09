@@ -51,7 +51,10 @@ Ext.define('ExtPOD.view.chart.Consumi_Totali_Annui_Chart', {
 					field: ['consumi_teorici_annui','letture_annue','telecontrollo_annuo','consumi_fatturati_annui'],
 					color: '#000',
 					orientation: 'vertical',
-					'text-anchor': 'middle'			
+					'text-anchor': 'middle',
+					    renderer: function(val) {					
+							return Ext.util.Format.number(val, '0,000.00') + ' MWh';
+						}
 				}		
 			}		
 	]        

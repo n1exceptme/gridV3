@@ -35,20 +35,6 @@
 	session_start();
 	$_SESSION['comune']=$_GET["pippo"]; 
 	?>
-
-    <style type="text/css" media="screen">
-        .task .x-grid-cell-inner {
-            padding-left: 15px;
-        }
-        .x-grid-row-summary .x-grid-cell-inner {
-            font-weight: bold;
-            font-size: 11px;
-        }
-        .icon-grid {
-            background: url(../shared/icons/fam/grid.png) no-repeat 0 -1px;
-        }
-    </style>		
-	
 	
 </head>
 

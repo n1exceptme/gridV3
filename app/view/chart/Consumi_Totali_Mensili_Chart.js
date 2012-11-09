@@ -85,6 +85,17 @@ Ext.define('ExtPOD.view.chart.Consumi_Totali_Mensili_Chart', {
                 xField: 'data_consumi',
                 yField: 'letture',
 				title: ['Letture'],
+                tips: {
+                    trackMouse: true,
+					fill: '#18428E',
+                    width: 120,
+                    height: 50,
+                    renderer: function(storeItem, item) {
+						useThousandSeparator: true,
+                        this.setTitle( Ext.util.Format.number(storeItem.get('letture'),'0,000.00') + ' MWh <br />' + 
+										Ext.Date.format(storeItem.get('data_consumi')," M, Y"));
+                    }
+                },				
                 markerConfig: {
                     type: 'cross',
                     size: 4,
@@ -104,10 +115,21 @@ Ext.define('ExtPOD.view.chart.Consumi_Totali_Mensili_Chart', {
                 xField: 'data_consumi',
                 yField: 'telecontrollo',
 				title: ['Telecontrollo'],
+                tips: {
+                    trackMouse: true,
+					fill: '#18428E',
+                    width: 120,
+                    height: 50,
+                    renderer: function(storeItem, item) {
+						useThousandSeparator: true,
+                        this.setTitle( Ext.util.Format.number(storeItem.get('telecontrollo'),'0,000.00') + ' MWh <br />' + 
+										Ext.Date.format(storeItem.get('data_consumi')," M, Y"));
+                    }
+                },					
                 markerConfig: {
-                    type: 'circle',
-                    size: 4,
-                    radius: 4,
+                    type: 'diamond',
+                    size: 3,
+                    radius: 3,
                     'stroke-width': 0
                 }
             }, 
@@ -123,10 +145,21 @@ Ext.define('ExtPOD.view.chart.Consumi_Totali_Mensili_Chart', {
                 xField: 'data_consumi',
                 yField: 'consumi_fatturati',
 				title: ['Consumi Fatturati'],
+                tips: {
+                    trackMouse: true,
+					baseCls: 'x-tipcustom',
+                    width: 120,
+                    height: 50,
+                    renderer: function(storeItem, item) {
+						useThousandSeparator: true,
+                        this.setTitle( Ext.util.Format.number(storeItem.get('consumi_fatturati'),'0,000.00') + ' MWh <br />' + 
+										Ext.Date.format(storeItem.get('data_consumi')," M, Y"));
+                    }
+                },					
                 markerConfig: {
-                    type: 'circle',
-                    size: 4,
-                    radius: 4,
+                    type: 'triangle',
+                    size: 5,
+                    radius: 5,
                     'stroke-width': 0
                 }
             }			
