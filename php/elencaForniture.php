@@ -1,15 +1,14 @@
 <?php
 	//include la configurazione per la connessione al DBMS
 	include("connetti.php");
+	require_once('MySqlExcelBuilder.php');
 
 	$start = $_REQUEST['start'];
 	$limit = $_REQUEST['limit'];
 	
 	$task = '';
 	
-	$commessa = $_SESSION['comune'];
-
-  	if(isset($_REQUEST['task'])) {
+	if(isset($_REQUEST['task'])) {
 		$task = $_REQUEST['task'];
 	}	
 	
@@ -35,8 +34,34 @@
 		print_r($filterValue);
 	};
 	}	
-	
-	
+
+	if(isset($_REQUEST['esporta'])) {
+		$esporta = $_REQUEST['esporta'];
+		if ($esporta == "Y") {
+			$database = 'pod';
+			$user='root';
+			$pwd='zinedine21';
+			$mysql_xls = new MySqlExcelBuilder($database,$user,$pwd);
+			$queryString = "SELECT * FROM anagrafica6 ORDER BY $sortField $sortOrder LIMIT $start,  $limit";
+			$mysql_xls->add_page('POD',$queryString,'potenza','B',2);
+			$phpExcel = $mysql_xls->getExcel(); // This needs to come after all the pages have been added.
+			$phpExcel->setActiveSheetIndex(0); // Set the sheet to the first page.
+			// Do some addtional formatting using PHPExcel
+			$sheet = $phpExcel->getActiveSheet();
+			$date = date('Y-m-d');
+			$cellKey = "A1"; 
+			$sheet->setCellValue($cellKey,"Anagrafica POD aggiornata al $date");
+			$style = $sheet->getStyle($cellKey);                              
+			$style->getFont()->setBold(true);
+			
+			$objWriter = PHPExcel_IOFactory::createWriter($phpExcel, 'Excel2007'); // 'Excel5' is the oldest format and can be read by old programs.
+			$fname = "Anagrafica.xlsx";
+			$objWriter->save($fname);
+			//echo "<a href=\"$fname\"> Download $fname</a>";
+			//echo "<script type='text/javascript'>alert('{$fname}');
+			//</script>";
+		}	
+	}
 	
 	switch($task) {
 		case "LISTING":
@@ -52,6 +77,8 @@
 		
 		default:
 			$queryString = "SELECT * FROM anagrafica6 ORDER BY $sortField $sortOrder LIMIT $start,  $limit";
+			$_SESSION['selezione'] = $queryString;
+			//echo $_SESSION['selezione'];
 		break;
 	}
 
@@ -71,14 +98,16 @@
 
 	//codifica i dati in formato JSON
 	
-	echo json_encode(array(
-		"success" => mysql_errno() == 0,
-		"total" => $total,
-		"forniture" => $forniture
-	));
+	// echo json_encode(array(
+		// "success" => mysql_errno() == 0,
+		// "total" => $total,
+		// "query" => $queryString,
+		// "forniture" => $forniture
+	// ));
 	
 	$info = date('Y-m-d H:i:s', time()) . " - " . $queryString . "\n";
 	$log = fopen ('LOG.log', 'a') or die("can't open file");
 	fwrite($log, $info );
 	fclose($log);
+	//echo $_SESSION['selezione'];
 ?>

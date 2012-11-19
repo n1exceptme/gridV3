@@ -7,6 +7,7 @@ Ext.MessageBox = Ext.Msg = Ext.create('Ext.window.MessageBox', {
     }
 });
 
+
 Ext.define('ExtPOD.controller.ControllerForniture', {
     extend: 'Ext.app.Controller',
 
@@ -87,7 +88,10 @@ Ext.define('ExtPOD.controller.ControllerForniture', {
             },			
             'FornitureGrid button[action=delete]': {
                 click: this.eliminaFornitura
-            }, 
+            },
+            'FornitureGrid button[action=excel]': {
+            	click: this.esportaFornitura
+            },			
             'FornitureGrid button[action=showchart]': {
                 toggle: this.mostraGrafico
             },			
@@ -110,6 +114,37 @@ Ext.define('ExtPOD.controller.ControllerForniture', {
         	edit.down('form').loadRecord(record);
         }
     },
+
+	esportaFornitura: function(button) {
+	
+			var grid = Ext.ComponentQuery.query('FornitureGrid')[0];
+			var store = grid.getStore();
+			var queryString = store.getProxy().extraParams.query;
+			
+ 			popup = Ext.create('Ext.window.Window', {			
+				waitMsg: 'Loading...',
+				autoShow: true,
+                layout: 'fit',
+                title: 'Esporta',
+                closeAction: 'hide',
+                width:200,
+                height:150,
+                border: false,
+                loader: {
+                    url: 'php/esporta.php',
+                    contentType: 'html',
+                    loadMask: true,
+					params: {
+							id: queryString
+							}
+                },				
+                listeners: {
+                    activate: function(popup) {
+                        popup.loader.load();
+                    }
+                }
+            });
+	},	
 	
 	resetcercaFornitura: function(button) {
 			var grid = Ext.ComponentQuery.query('FornitureGrid')[0];

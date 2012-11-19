@@ -377,7 +377,10 @@ Ext.define('ExtPOD.view.consumi.ConsumiGrid' ,{
                     store: 'Consumi',
                     items: [
                         {
-                            xtype: 'tbfill'
+                            xtype: 'button',
+                            itemId: 'exportData',
+                            text: 'Esporta Excel',
+                            tooltip: 'Esporta dati selezionati in Excel'
                         },
                         {
                             xtype: 'button',

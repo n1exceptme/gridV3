@@ -201,7 +201,16 @@ Ext.define('ExtPOD.view.fornitura.FornitureGrid' ,{
 				border: 1,
 				style: { borderColor: 'gray'},
 				action: 'delete'
-				},'->',
+				},
+				{
+                iconCls: 'icon-excel',
+                text: 'Excel',
+                width: 70,
+				border: 1,
+				style: { borderColor: 'gray'},
+				action: 'excel'
+				},				
+				'->',
 				{
                 iconCls: 'icon-grafico',
                 text: 'Nascondi Grafici',

@@ -33,9 +33,10 @@ Ext.define('ExtPOD.store.Forniture', {
             update: 'php/aggiornaFornitura.php',
             destroy: 'php/eliminaFornitura.php'
         },
-/*  		extraParams:{
-			task: "LISTING"
-		}, */
+  		extraParams:{
+			esporta: "N",
+			query: ""
+		},
         reader: {
             type: 'json',
             root: 'forniture',

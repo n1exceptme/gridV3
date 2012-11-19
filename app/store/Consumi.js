@@ -9,7 +9,7 @@ Ext.define('ExtPOD.store.Consumi', {
 	storeId: 'Consumi',
 	
     remoteSort:true,
-	//remoteFilter: true,
+	remoteFilter: true,
 	simpleSortMode:true,
 	autoLoad: true,
     sorters : {

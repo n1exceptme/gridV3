@@ -33,8 +33,9 @@
 	
 	<?php
 	session_start();
-	$_SESSION['comune']=$_GET["pippo"]; 
-	?>
+	$_SESSION['comune']= "Napoli"; 
+	$_SESSION['selezione']	= "SELECT * FROM anagrafica6 LIMIT 0,10";
+	?>   	
 	
 </head>
 

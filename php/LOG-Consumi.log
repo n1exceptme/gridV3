@@ -1025,3 +1025,1815 @@
  where :  0 = 0 
  qs : 
 
+-----------2012-11-12 17:02:02-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:02:03-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:02:03-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:02:37-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:02:38-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:02:39-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:07:34-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:07:34-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:07:35-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:08:29-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:08:31-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:08:31-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:10:37-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:10:40-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:10:40-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:21:41-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:21:43-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:21:44-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:23:37-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:23:39-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:23:40-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:28:36-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:28:40-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:28:40-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:29:44-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:29:46-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:29:47-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:38:27-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:38:29-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:38:30-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:42:39-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:42:41-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 17:42:42-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 18:02:54-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 18:02:55-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 18:02:56-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 18:37:16-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 18:37:17-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-12 18:37:17-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:22:02-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:22:04-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:22:04-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:23:01-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:23:03-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:23:03-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:25:42-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:25:43-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:25:44-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:27:37-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:27:37-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:27:37-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:28:25-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:28:26-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:28:27-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:44:05-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:44:06-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:44:06-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:45:10-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:45:12-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:45:13-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:52:35-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:52:37-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 11:52:37-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:03:32-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:03:34-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:03:34-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:05:15-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:05:17-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:05:17-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:11:54-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:11:56-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:11:56-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:17:05-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:17:06-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:17:07-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:18:34-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:18:36-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:18:36-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:19:14-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:19:16-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:19:16-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:20:58-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:21:00-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:21:00-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:21:57-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:22:00-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:22:00-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:24:30-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:24:32-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:24:32-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:25:42-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:25:43-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:25:43-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:30:00-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:30:01-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:30:01-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:30:33-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:30:34-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:30:34-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:35:19-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:35:20-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:35:21-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:36:07-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:36:08-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:36:08-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:36:28-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:36:29-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:36:30-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:38:36-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:38:37-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:38:38-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:39:09-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:39:12-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:39:12-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:43:36-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:43:37-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:43:37-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:54:05-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:54:08-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:54:08-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:57:13-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:57:15-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:57:15-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:58:51-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:58:52-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 12:58:52-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:07:15-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:07:17-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:07:17-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:07:54-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:07:55-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:07:56-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:13:04-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:13:05-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:13:05-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:13:56-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:13:57-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:13:57-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:15:52-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:15:54-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:15:54-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:34:42-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:34:43-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-13 13:34:43-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-18 21:35:19-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-18 21:35:20-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-18 21:35:20-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-18 21:36:16-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-18 21:36:16-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 100,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 100
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-18 21:36:16-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 200,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 200
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-18 21:39:55-----------
+ queryString : SELECT SQL_CALC_FOUND_ROWS * FROM consumi6 WHERE  0 = 0  ORDER BY pod ASC LIMIT 0,100
+ total : Array
+ count : Resource id #6
+ total : 17403
+ start : 0
+ limit : 100
+ sortProperty : pod
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+

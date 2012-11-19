@@ -89,11 +89,11 @@ if (is_array($filters)) {
 	    $consumi[] = $consumo;
 	}
 
-	echo json_encode(Array(
-		"success" => mysql_errno() == 0,
-		"total"=>$numrecords,
-		"consumi" => $consumi
-	));
+	// echo json_encode(Array(
+		// "success" => mysql_errno() == 0,
+		// "total"=>$numrecords,
+		// "consumi" => $consumi
+	// ));
 	
 	$info = "-----------" . date('Y-m-d H:i:s', time()) . "-----------" .
 	"\n queryString : " . $queryString .
@@ -111,5 +111,7 @@ if (is_array($filters)) {
 	$log = fopen ('LOG-Consumi.log', 'a') or die("can't open file");
 	fwrite($log, $info );
 	fclose($log);	
+	
+	//echo $_SESSION['selezione'];
 
 ?>
